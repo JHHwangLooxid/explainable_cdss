@@ -1,0 +1,19 @@
+{
+    "Loaded data": "files/data",
+    "subject": 1001,
+    "data load start epoch number": 0,
+    "exp start epoch number": 0,
+    "user-rater1 f1_score": 0.028296547821165818,
+    "user-rater2 f1_score": 0.036475869809203136,
+    "user-rater1 acc": 0.017857142857142856,
+    "user-rater2 acc": 0.017857142857142856,
+    "AI-user": 0.05579297245963912,
+    "AI-rater1": 0.575594190755481,
+    "AI-rater2": 0.5152826041882645,
+    "rater1-rater2": 0.5880584404154198,
+    "AI-user acc": 0.03571428571428571,
+    "AI-rater1 acc": 0.5625,
+    "AI-rater2 acc": 0.5089285714285714,
+    "rater1-rater2 acc": 0.5625,
+    "Model": "DeepStrideNet"
+}
