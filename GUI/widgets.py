@@ -284,7 +284,7 @@ class Annotate(QWidget):
 
     def create(self):
         self.prev_button = QPushButton()
-        self.prev_button.setIcon(QIcon('CHI_gui/buttons/button_prev.png'))
+        self.prev_button.setIcon(QIcon('GUI/buttons/button_prev.png'))
         self.prev_button.clicked.connect(self.parent.backskip_annotate)
 
         self.epoch_layout = QHBoxLayout()
@@ -301,7 +301,7 @@ class Annotate(QWidget):
             self.parent.dataloader.PRED.shape[0])))
 
         self.next_button = QPushButton()
-        self.next_button.setIcon(QIcon('CHI_gui/buttons/button_next.png'))
+        self.next_button.setIcon(QIcon('GUI/buttons/button_next.png'))
         self.next_button.clicked.connect(self.parent.skip_annotate)
 
         move_layout = QHBoxLayout()
@@ -310,7 +310,7 @@ class Annotate(QWidget):
         move_layout.addWidget(self.next_button)
 
         self.check_button = QPushButton()
-        self.check_button.setIcon(QIcon('CHI_gui/buttons/green_check.jpg'))
+        self.check_button.setIcon(QIcon('GUI/buttons/green_check.jpg'))
         self.check_button.clicked.connect(self.parent.confirm_annotate)
         self.info_pred_label = QLabel(self)
         confirm_layout = QHBoxLayout()
@@ -318,7 +318,7 @@ class Annotate(QWidget):
         confirm_layout.addWidget(self.info_pred_label)
 
         self.cross_button = QPushButton()
-        self.cross_button.setIcon(QIcon('CHI_gui/buttons/red_cross.jpg'))
+        self.cross_button.setIcon(QIcon('GUI/buttons/red_cross.jpg'))
         self.cross_button.clicked.connect(self.parent.reannotate)
         self.reannotate_label = QLabel(self)
         reannotate_layout = QHBoxLayout()

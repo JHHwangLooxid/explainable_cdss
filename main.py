@@ -100,7 +100,6 @@ class Data_Loader():
         if activation is not None:
             for key in activation.keys():
                 self.activation[key] = activation[key][exp_start_epoch:exp_start_epoch + num_epochs]
-                print(key)
         else:
             self.activation = {'spindles', 'complexes', 'alphas', 'deltas', 'sawtooth'}
             for key in activation.keys():
